@@ -26,7 +26,7 @@ register and create a translation resource. Once created copy your key for the s
 This will translate en.json in to any language you want.  To add a new language simply create a new empty xx.json file in ./src/translations, for instance add 'it.json'.
 After running int:translate  the it.json will be overwritten with the italizan translation for the original english source
 
-### Run&Test&Build the application
+### React Application
 `npm start`
 
 Runs the app in the development mode.\
