@@ -12,11 +12,13 @@ In the project directory, you can run:
 ### Initialize the internationalization script
 `npm run int:init`
 
-### Parse source code for used of internationalization code to extract
+### Parse source your react app source code for uses of internationalization code to extract
 `npm run int:extract`
 
+This will look for anny occurance of the react-int api in your code declaring a new translation and it will put all the definitions found in the ./lang folder. All definitions are in english so the file will be called en.json.   This files is the input for npm run int:translate
+
 ### Translate the extracted soruce-code using Microsoft Azure Translator service
-`npm run int:extract`
+`npm run int:translate`
 
 To use this part you need to go to Microsoft Azure portal [https://portal.azure.com/](https://portal.azure.com/), 
 register and create a translation resource. Once created copy your key to the the azurekey.txt file.
