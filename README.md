@@ -1,4 +1,4 @@
-# Example with react-int, automatic tranlations wih Microsoft Azure 
+# Internationalization Example with 'react-int' with automatic tranlations using Microsoft Azure Translator 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
