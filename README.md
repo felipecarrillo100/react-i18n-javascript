@@ -6,22 +6,23 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-## Install
-### `npm install`
+### Install
+`npm install`
 
-## Initialize the internationalization script
-### `npm run int:init`
+### Initialize the internationalization script
+`npm run int:init`
 
-## Parse source code for used of internationalization code to extract
-### `npm run int:extract`
+### Parse source code for used of internationalization code to extract
+`npm run int:extract`
 
-## Translate the extracted soruce-code using Microsoft Azure Translator service
-### `npm run int:extract`
+### Translate the extracted soruce-code using Microsoft Azure Translator service
+`npm run int:extract`
 
-To use this part you need to go to Microsoft Azure portal, register and create translation resource. Then enter your key in the 
+To use this part you need to go to Microsoft Azure portal [https://portal.azure.com/](https://portal.azure.com/), 
+register and create a translation resource. Once created copy your key to the the azurekey.txt file.
 
-## Run&Test&Build the application
-### `npm start`
+### Run&Test&Build the application
+`npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -29,12 +30,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+`npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+`npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
