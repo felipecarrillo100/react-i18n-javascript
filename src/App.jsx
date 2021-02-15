@@ -25,7 +25,7 @@ class App extends React.Component{
                         description="Welcome message"
                         values={{ user: "John Doe" }}/>
                 </h2>
-                <a href="https://www.positronx.io" target="_blank" rel="noopener noreferrer">
+                <a href="https://dev.luciad.com" target="_blank" rel="noopener noreferrer">
                     <FormattedMessage
                         id="app.link"
                         defaultMessage="Go to link"

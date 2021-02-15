@@ -42,8 +42,6 @@
   "devDependencies": {
     "@babel/cli": "^7.12.16",
     "@babel/core": "^7.12.16",
-    "@formatjs/cli": "^3.1.0",
-    "babel-plugin-react-intl": "^8.2.25",
-    "cross-env": "^7.0.3"
+    "@formatjs/cli": "^3.1.0"
   }
 }
