@@ -17,11 +17,14 @@ In the project directory, you can run:
 
 This will look for anny occurance of the react-int api in your code declaring a new translation and it will put all the definitions found in the ./lang folder. All definitions are in english so the file will be called en.json.   This files is the input for npm run int:translate
 
-### Translate the extracted soruce-code using Microsoft Azure Translator service
+### Automatically Translates the extracted source Microsoft Azure Translator service
 `npm run int:translate`
 
-To use this part you need to go to Microsoft Azure portal [https://portal.azure.com/](https://portal.azure.com/), 
-register and create a translation resource. Once created copy your key to the the azurekey.txt file.
+To use this part you will need to go to Microsoft Azure portal [https://portal.azure.com/](https://portal.azure.com/), 
+register and create a translation resource. Once created copy your key for the service to the the azurekey.txt file.
+
+This will translate en.json in to any language you want.  To add a new language simply create a new empty xx.json file in ./src/translations, for instance add 'it.json'.
+After running int:translate  the it.json will be overwritten with the italizan translation for the original english source
 
 ### Run&Test&Build the application
 `npm start`
